@@ -24,7 +24,7 @@ This Bash script automates the process of sending scheduled notifications to pla
 2. Download or copy this script to your server environment.
 3. Make the script executable:  
    ```bash
-   chmod +x restart_script.sh
+   chmod +x restart.sh
    ```
 4. Edit the `SCREEN_NAME` variable in the script to match the name of your server's screen session (default is `mc`).
 
