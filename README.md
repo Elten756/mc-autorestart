@@ -36,7 +36,7 @@ Run the script manually or schedule it using `crontab` for automatic execution.
 
 To run the script manually:  
 ```bash
-./restart_script.sh
+./restart.sh
 ```
 
 ### Scheduling with `crontab`
@@ -47,9 +47,9 @@ To run the script manually:
    ```
 2. Add the following line to schedule the script. For example, to restart the server daily at 3:00 AM:  
    ```bash
-   0 3 * * * /path/to/restart_script.sh
+   0 3 * * * /path/to/restart.sh
    ```
-   Replace `/path/to/restart_script.sh` with the full path to your script.
+   Replace `/path/to/restart.sh` with the full path to your script.
 
 3. Save and exit the editor. Your server will now automatically restart at the specified time.
 
