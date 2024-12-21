@@ -16,18 +16,15 @@ stop_server() {
     screen -S "$SCREEN_NAME" -p 0 -X stuff "stop$(printf '\r')"
 }
 
-# Scheduled notifications
+# Schedule notifications
 send_message "The server will restart in 1 hour."
-sleep 3600 # Wait for 1 hour
-
-send_message "The server will restart in 30 minutes."
-sleep 1800 # Wait for 30 minutes
+sleep 2700 # Wait for 45 minutes
 
 send_message "The server will restart in 15 minutes."
-sleep 900 # Wait for 15 minutes
+sleep 600 # Wait for 10 minutes
 
 send_message "The server will restart in 5 minutes."
-sleep 300 # Wait for 5 minutes
+sleep 240 # Wait for 4 minutes
 
 send_message "The server will restart in 1 minute."
 sleep 60 # Wait for 1 minute
