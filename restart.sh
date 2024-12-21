@@ -18,7 +18,10 @@ stop_server() {
 
 # Schedule notifications
 send_message "The server will restart in 1 hour."
-sleep 2700 # Wait for 45 minutes
+sleep 1800 # Wait for 30 minutes
+
+send_message "The server will restart in 30 minutes."
+sleep 900 # Wait for 15 minutes
 
 send_message "The server will restart in 15 minutes."
 sleep 600 # Wait for 10 minutes
